@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: LibroReferenceImages
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5434570648074076936
+  m_GuidHigh: 5672566372484775086
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5596838426626387199
+      m_GuidHigh: 13811738191003402679
+    m_SerializedTextureGuid:
+      m_GuidLow: 12422129717662510619
+      m_GuidHigh: 7821793200456619547
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_01
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5315878589700268507
+      m_GuidHigh: 18017683450063361430
+    m_SerializedTextureGuid:
+      m_GuidLow: 14588447781380296386
+      m_GuidHigh: 1305376218662449114
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_02
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4854918819339509312
+      m_GuidHigh: 14739258193842913723
+    m_SerializedTextureGuid:
+      m_GuidLow: 10445140476784343528
+      m_GuidHigh: 15464826912845473560
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_03
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5462114308497170229
+      m_GuidHigh: 2505712098841944992
+    m_SerializedTextureGuid:
+      m_GuidLow: 13507697207254160703
+      m_GuidHigh: 4283940468988850953
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_04
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5361811531980717740
+      m_GuidHigh: 7347803623021880222
+    m_SerializedTextureGuid:
+      m_GuidLow: 13061822696602417259
+      m_GuidHigh: 2842309055584828153
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_05
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4626441421065628657
+      m_GuidHigh: 14924615308232502945
+    m_SerializedTextureGuid:
+      m_GuidLow: 3460078493392442198
+      m_GuidHigh: 2302200279583538042
+    m_Size: {x: 0.1485, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: pagina_06
+    m_Texture: {fileID: 0}

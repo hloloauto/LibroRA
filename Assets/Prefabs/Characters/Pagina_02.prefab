@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1060303083360755288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656241273432097554}
+  m_Layer: 0
+  m_Name: Pagina_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1656241273432097554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060303083360755288}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7220737566670154701}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2410800564580009466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1656241273432097554}
+    m_Modifications:
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_Name
+      value: Tito
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2908337288185887894}
+    - targetCorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6326683088640698246}
+  m_SourcePrefab: {fileID: 100100000, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+--- !u!4 &7220737566670154701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+  m_PrefabInstance: {fileID: 2410800564580009466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7220737566670448273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+  m_PrefabInstance: {fileID: 2410800564580009466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2908337288185887894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220737566670448273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  speakerName: Tito
+  touchedAwakeLine:
+    text: "\xA1Cosquillas! Sigue leyendo el cuento."
+    clip: {fileID: 8300000, guid: 6ac56e50dddf27749a1c3aea15d8bdd0, type: 3}
+    seconds: 4.273923
+  talkAwakeLine:
+    text: "\xA1Ay\xFAdame a encontrar mi espada!"
+    clip: {fileID: 8300000, guid: 3101a79b950e97c409f505804e538d76, type: 3}
+    seconds: 3.0691156
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 0}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 0}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35
+--- !u!114 &6326683088640698246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220737566670448273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21d15cbfe4738c49a05069142692357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.StoryActor
+  beats:
+  - pose: 1
+    motion: 0
+    seconds: 3
+    line:
+      text: "\xA1Buenos d\xEDas, sol!"
+      clip: {fileID: 8300000, guid: e14f803b9caac3041abb0751140968fb, type: 3}
+      seconds: 2.8
+  - pose: 1
+    motion: 1
+    seconds: 2.5
+    line:
+      text: "\xA1Qu\xE9 d\xEDa tan bonito!"
+      clip: {fileID: 8300000, guid: eed87935e62fb1b4399f3b7d87c23e54, type: 3}
+      seconds: 2.8
+  startDelay: 0
+  repeat: 0
+  repeatDelay: 2
+  poseBlendSeconds: 0.35
+  hopHeight: 0.22
+  runStepsPerSecond: 3
+  breathAmplitude: 0.008
+  breathsPerSecond: 0.35
+  seated: 0
+  seatedHipsHeight: 0.62
+  characterRoot: {fileID: 0}

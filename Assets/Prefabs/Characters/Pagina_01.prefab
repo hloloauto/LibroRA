@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6978781175175241942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2785061902057364935}
+  m_Layer: 0
+  m_Name: Pagina_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2785061902057364935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978781175175241942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3371303712160305222}
+  - {fileID: 696892216443239325}
+  - {fileID: 9160523179445902400}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4829314659299078271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2785061902057364935}
+    m_Modifications:
+    - target: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_Name
+      value: Soldado
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9914449
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1305262
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7940186133630248588}
+    - targetCorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7845738847912836116}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+--- !u!1 &696892216442905301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+  m_PrefabInstance: {fileID: 4829314659299078271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7940186133630248588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696892216442905301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  speakerName: Soldado
+  touchedAwakeLine:
+    text: "\xA1Eh! Tito te necesita."
+    clip: {fileID: 8300000, guid: 73dc06e41d41f0d4f8ddfebb4a2f0425, type: 3}
+    seconds: 3.7629478
+  talkAwakeLine:
+    text: "\xA1Mira bien, Tito!"
+    clip: {fileID: 8300000, guid: 234b9efd34a9eca4d9b1e01c0c7185a2, type: 3}
+    seconds: 2.8567348
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 0}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 0}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35
+--- !u!114 &7845738847912836116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696892216442905301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21d15cbfe4738c49a05069142692357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.StoryActor
+  beats:
+  - pose: 4
+    motion: 5
+    seconds: 3
+    line:
+      text: "\xA1Hola, amigos!"
+      clip: {fileID: 8300000, guid: 3c8f5fabcd0933044ad388fa68b65f70, type: 3}
+      seconds: 2.8
+  startDelay: 7.3140593
+  repeat: 0
+  repeatDelay: 2
+  poseBlendSeconds: 0.35
+  hopHeight: 0.22
+  runStepsPerSecond: 3
+  breathAmplitude: 0.008
+  breathsPerSecond: 0.35
+  seated: 0
+  seatedHipsHeight: 0.62
+  characterRoot: {fileID: 0}
+--- !u!4 &696892216443239325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+  m_PrefabInstance: {fileID: 4829314659299078271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6890646833234463682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2785061902057364935}
+    m_Modifications:
+    - target: {fileID: 2342093380575733222, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_Name
+      value: Amigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9914449
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.1305262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2342093380575733222, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334704093339403280}
+    - targetCorrespondingSourceObject: {fileID: 2342093380575733222, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1266776170983562545}
+  m_SourcePrefab: {fileID: 100100000, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+--- !u!4 &9160523179445902400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2342093380575991682, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+  m_PrefabInstance: {fileID: 6890646833234463682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9160523179446169124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2342093380575733222, guid: 1fd7a42b79459c242bfaa2569e10a8ec, type: 3}
+  m_PrefabInstance: {fileID: 6890646833234463682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1334704093339403280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160523179446169124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  speakerName: Amigo
+  touchedAwakeLine:
+    text: "\xA1Ja, ja! Me haces cosquillas."
+    clip: {fileID: 8300000, guid: cf90c16b2d8a3934b95a3699b4858a2e, type: 3}
+    seconds: 3.824898
+  talkAwakeLine:
+    text: "\xBFQuieres un poco de pan dulce?"
+    clip: {fileID: 8300000, guid: d27adab199b331947a372ac96f044bcf, type: 3}
+    seconds: 2.8
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 0}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 0}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35
+--- !u!114 &1266776170983562545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160523179446169124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21d15cbfe4738c49a05069142692357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.StoryActor
+  beats:
+  - pose: 1
+    motion: 1
+    seconds: 3
+    line:
+      text: "\xA1Bienvenidos al cuento!"
+      clip: {fileID: 8300000, guid: 68fd724cfd54b5348bdb7aa2dc5a1c17, type: 3}
+      seconds: 2.8
+  startDelay: 10.614059
+  repeat: 0
+  repeatDelay: 2
+  poseBlendSeconds: 0.35
+  hopHeight: 0.22
+  runStepsPerSecond: 3
+  breathAmplitude: 0.008
+  breathsPerSecond: 0.35
+  seated: 0
+  seatedHipsHeight: 0.62
+  characterRoot: {fileID: 0}
+--- !u!1001 &7748603709615930993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2785061902057364935}
+    m_Modifications:
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      propertyPath: m_Name
+      value: Tito
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4820935015117694531}
+    - targetCorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 350687675202067250}
+  m_SourcePrefab: {fileID: 100100000, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+--- !u!1 &3371303712160079130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4990503887920145259, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+  m_PrefabInstance: {fileID: 7748603709615930993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4820935015117694531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371303712160079130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  speakerName: Tito
+  touchedAwakeLine:
+    text: "\xA1Cosquillas! Sigue leyendo el cuento."
+    clip: {fileID: 8300000, guid: 6ac56e50dddf27749a1c3aea15d8bdd0, type: 3}
+    seconds: 4.273923
+  talkAwakeLine:
+    text: "\xA1Ay\xFAdame a encontrar mi espada!"
+    clip: {fileID: 8300000, guid: 3101a79b950e97c409f505804e538d76, type: 3}
+    seconds: 3.0691156
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 0}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 0}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35
+--- !u!114 &350687675202067250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371303712160079130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21d15cbfe4738c49a05069142692357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.StoryActor
+  beats:
+  - pose: 1
+    motion: 1
+    seconds: 3.814059
+    line:
+      text: "\xA1Hola! Soy el caballero Tito."
+      clip: {fileID: 8300000, guid: 0a3a0a5ad4ddc8749b5b6837adf7d2eb, type: 3}
+      seconds: 3.814059
+  - pose: 1
+    motion: 0
+    seconds: 3.2
+    line:
+      text: "\xA1Ay\xFAdame a encontrar mi espada!"
+      clip: {fileID: 8300000, guid: 3101a79b950e97c409f505804e538d76, type: 3}
+      seconds: 3.0691156
+  startDelay: 0
+  repeat: 0
+  repeatDelay: 2
+  poseBlendSeconds: 0.35
+  hopHeight: 0.22
+  runStepsPerSecond: 3
+  breathAmplitude: 0.008
+  breathsPerSecond: 0.35
+  seated: 0
+  seatedHipsHeight: 0.62
+  characterRoot: {fileID: 0}
+--- !u!4 &3371303712160305222 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4990503887919853111, guid: 5ba11b1f30b1d01428af208885506dc0, type: 3}
+  m_PrefabInstance: {fileID: 7748603709615930993}
+  m_PrefabAsset: {fileID: 0}

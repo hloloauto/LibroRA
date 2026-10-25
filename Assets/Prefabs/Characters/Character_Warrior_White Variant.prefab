@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2140723463571991050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 180246, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_Name
+      value: Character_Warrior_White Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498126, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 180246, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -858602958774800440}
+    - targetCorrespondingSourceObject: {fileID: 180246, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7890171517662590087}
+  m_SourcePrefab: {fileID: 100100000, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+--- !u!1 &2140723463572138524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 180246, guid: 4fd72ede44298284b89704ad0b9dedad, type: 3}
+  m_PrefabInstance: {fileID: 2140723463571991050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-858602958774800440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140723463572138524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b18a991d12a47c145930995652eda675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.SleepWakeController
+  characterRoot: {fileID: 0}
+  playOnEnable: 1
+  autoWake: 1
+  sleepSeconds: 3
+  stretchSeconds: 1.2
+  riseSeconds: 1.1
+  lyingHipsHeight: 0.15
+  riseHopHeight: 0.12
+  sleepBreathAmplitude: 0.025
+  awakeBreathAmplitude: 0.008
+  breathsPerSecond: 0.35
+--- !u!114 &-7890171517662590087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140723463572138524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  touchedAwakeLine:
+    text: "\xA1No me tocas! Comienza a leer."
+    clip: {fileID: 8300000, guid: 44158b8acf4449b4f99857b1b913e300, type: 3}
+    seconds: 3
+  talkAwakeLine:
+    text: "Tengo mucho sue\xF1o... quiero seguir durmiendo."
+    clip: {fileID: 8300000, guid: f4eb2c30f294a694b9d638d5a53d6178, type: 3}
+    seconds: 3
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 8300000, guid: 7eb6a3028e39cb9429e057c1f4aba624, type: 3}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 8300000, guid: eb899d85c0cf0ee45b52d32c90d08831, type: 3}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35

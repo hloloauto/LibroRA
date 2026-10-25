@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5656680307929360224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792029747733429799}
+  m_Layer: 0
+  m_Name: Pagina_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1792029747733429799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5656680307929360224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8417279346508491448}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4503275442300526938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1792029747733429799}
+    m_Modifications:
+    - target: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_Name
+      value: Soldado
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1975194040856261832}
+    - targetCorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9036652996675126941}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+--- !u!1 &8417279346508297200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5381511145256112810, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+  m_PrefabInstance: {fileID: 4503275442300526938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975194040856261832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417279346508297200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8be78f88494cf44ca3333c6512f33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.CharacterInteraction
+  speakerName: Soldado
+  touchedAwakeLine:
+    text: "\xA1Eh! Tito te necesita."
+    clip: {fileID: 8300000, guid: 73dc06e41d41f0d4f8ddfebb4a2f0425, type: 3}
+    seconds: 3.7629478
+  talkAwakeLine:
+    text: "\xA1Mira bien, Tito!"
+    clip: {fileID: 8300000, guid: 234b9efd34a9eca4d9b1e01c0c7185a2, type: 3}
+    seconds: 2.8567348
+  talkAsleepLine:
+    text: Zzz... zzz... zzz...
+    clip: {fileID: 0}
+    seconds: 2.5
+  wokeUpLine:
+    text: "\xA1Ahh... qu\xE9 sue\xF1o!"
+    clip: {fileID: 0}
+    seconds: 2.5
+  returnToSleepAfterTalk: 0
+  returnToSleepDelay: 3
+  wakeAgainDelay: 6
+  shakeSeconds: 0.6
+  shakeDegrees: 14
+  shakeSpeed: 40
+  colliderHeight: 1.8
+  colliderRadius: 0.35
+--- !u!114 &9036652996675126941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417279346508297200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21d15cbfe4738c49a05069142692357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LibroRA.AR.StoryActor
+  beats:
+  - pose: 4
+    motion: 5
+    seconds: 3.3073468
+    line:
+      text: "\xA1Tito, mira detr\xE1s de ti!"
+      clip: {fileID: 8300000, guid: 161901022e423f14b8a18f88c55b4afd, type: 3}
+      seconds: 3.3073468
+  - pose: 4
+    motion: 0
+    seconds: 3
+    line:
+      text: "\xA1Tu espada est\xE1 all\xED!"
+      clip: {fileID: 8300000, guid: f78b40ba6227ccc49afac3a0fddf19bc, type: 3}
+      seconds: 2.8
+  startDelay: 0
+  repeat: 0
+  repeatDelay: 2
+  poseBlendSeconds: 0.35
+  hopHeight: 0.22
+  runStepsPerSecond: 3
+  breathAmplitude: 0.008
+  breathsPerSecond: 0.35
+  seated: 0
+  seatedHipsHeight: 0.62
+  characterRoot: {fileID: 0}
+--- !u!4 &8417279346508491448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5381511145256307682, guid: 4d4516fbd96cd6f42b95701a6cca3507, type: 3}
+  m_PrefabInstance: {fileID: 4503275442300526938}
+  m_PrefabAsset: {fileID: 0}
